@@ -1,0 +1,66 @@
+
+
+.banner{
+  background-image:linear-gradient(rgba(	230,197,154,.4),rgba(	230,197,154,.4)), url("../../images/background_2.png");
+  background-size: cover;
+  background-position: center;
+  padding: 80px;
+  color: #2A5D8B;
+  font-size: 28px;
+}
+.banner p{
+  color: #57A5CE;
+}
+
+.banner-info{
+  margin: 0 auto;
+  width: 900px;
+}
+
+.block-with-steps{
+  margin: 0 auto;
+  width: 900px;
+  text-align: center;
+  color: #2A5D8B;
+  font-size: 24px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.steps{
+  display: flex;
+}
+
+.step img {
+  width:250px;
+}
+.step {
+  font-size: 19px;
+  color:#2A5D8B;
+  width: 300px;
+  background-color: white;
+  box-shadow: 1px 4px 5px rgba(0,0,0,0.4);
+  border-radius: 40px;
+  margin: 20px;
+}
+
+.step p {
+  font-size: 15px;
+  color: #57A5CE;
+  margin: 25px;
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  padding:40px;
+  background-color: #89D157;
+  text-align: center;
+  justify-content: center;
+}
+
+.footer .fa-brands{
+  font-size: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
